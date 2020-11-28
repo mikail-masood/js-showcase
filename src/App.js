@@ -1,11 +1,13 @@
 import './App.css';
 import FloatingNav from './components/FloatingNav';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <div className="App">
-      <h1>App Work?</h1>
+      <Landing/>
       <FloatingNav/>
+      
     </div>
   );
 }
