@@ -1,0 +1,9 @@
+.menu_button{
+  background-color: #E0BBE4;
+  color: white;
+}
+
+.menu_button:hover{
+  background-color: #957DAD;
+  font-size: large;
+}

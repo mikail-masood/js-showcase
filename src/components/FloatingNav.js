@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
+import { Fab } from '@material-ui/core';
+import './FloatingNav.css';
 
 export class FloatingNav extends Component {
   render() {
     return (
       <div>
-        <h1>This will be the floating nav button</h1>
+        <Fab className="menu_button">
+          <i className='fas fa-bars'></i>
+        </Fab>
       </div>
     )
   }
