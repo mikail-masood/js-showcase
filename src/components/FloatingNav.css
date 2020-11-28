@@ -1,9 +1,11 @@
-.menu_button{
-  background-color: #E0BBE4;
-  color: white;
+.menu_btn .menu_icon{
+  background-color: #F6FAFA;
+  color: #414350;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
-.menu_button:hover{
-  background-color: #957DAD;
+.menu_btn .menu_icon:hover{
+  background-color: #FDC7AB;
   font-size: large;
 }

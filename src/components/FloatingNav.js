@@ -5,8 +5,8 @@ import './FloatingNav.css';
 export class FloatingNav extends Component {
   render() {
     return (
-      <div>
-        <Fab className="menu_button">
+      <div className="menu_btn">
+        <Fab ariaLabel='Menu' className="menu_icon">
           <i className='fas fa-bars'></i>
         </Fab>
       </div>
