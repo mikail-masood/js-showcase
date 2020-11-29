@@ -5,5 +5,5 @@
   bottom: 0;
   right: 0;
   overflow: auto;
-  background: #303133;
+  background: var(--secondary-color);
 }

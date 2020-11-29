@@ -1,11 +1,16 @@
+.menu_btn {
+  margin-left: 3%;
+  margin-top: 3%;
+  transition: all 0.3s;
+}
+
+
 .menu_btn .menu_icon{
-  background-color: #F6FAFA;
-  color: #414350;
-  margin-left: 5%;
-  margin-top: 5%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .menu_btn .menu_icon:hover{
-  background-color: #FDC7AB;
+  background-color: var(--accent-color);
   font-size: large;
 }
